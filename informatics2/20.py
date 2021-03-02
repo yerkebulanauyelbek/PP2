@@ -1,0 +1,9 @@
+h=int(input())
+m=int(input())
+s=int(input())
+xh=int(input())
+xm=int(input())
+xs=int(input())
+a=(h*3600)+(m*60)+s
+b=(xh*3600)+(xm*60)+xs
+print(b-a)
